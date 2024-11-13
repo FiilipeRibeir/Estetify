@@ -1,6 +1,6 @@
+import 'package:estetify/index.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:estetify/module/index.dart';
 
 class AppPage extends StatefulWidget {
   const AppPage({super.key});
