@@ -1,5 +1,5 @@
-import 'package:go_router/go_router.dart';
 import 'package:estetify/index.dart';
+import 'package:go_router/go_router.dart';
 
 class AppRouter {
   static GoRouter init() {
@@ -9,6 +9,8 @@ class AppRouter {
       },
       routes: [
         SplashRouter.routes(),
+        LoginRouter.routes(),
+        OnboardingRouter.routes(),
       ],
     );
   }
